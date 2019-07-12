@@ -1,14 +1,14 @@
 # Weekly Nerd @cmda-minor-web · 2018-2019
 
 ## Table of content
-* **[Frontend United](#fronted-united)**
+* **[Frontend United](#frontend-united)**
   * **[How to design an award winning website?](#how-to-design-an-award-winning-website)**
   * **[Get your screen together. Design skills for frontend people.](#get-your-screen-together-design-skills-for-frontend-people)**
-* **[Socket.io](#socket.io)**
-  * **[What is Socket.io?](#what-is-socket-io)**
-  * **[Why do we use Socket.io?](#why-do-we-use-socket-io?)**
-  * **[How do we use socket](#how-do-we-use-socket-io)**
-    * **[Which sites use socket.io](#which-sites-use-socket-io)**
+* **[Socket.io](#socketio)**
+  * **[What is Socket.io?](#what-is-socketio)**
+  * **[Why do we use Socket.io?](#why-do-we-use-socketio)**
+  * **[How do we use socket.io?](#how-do-we-use-socketio)**
+    * **[Which sites use socket.io?](#which-sites-use-socketio)**
 * **[NodeJS](#Nodejs)**
   * **[Azat Mardan: You don't know NodeJS](#azat-mardan-you-dont-know-NodeJS)**
     * **[Comparison with Java](#comparison-with-java)**
