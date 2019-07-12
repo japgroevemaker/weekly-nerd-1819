@@ -1,9 +1,28 @@
 # Weekly Nerd @cmda-minor-web · 2018-2019
 
+## Table of content
+* **[Frontend United](#Fronted-United)**
+  * **[How to design an award winning website?](#How-to-design-an-award-winning-website?)**
+  * **[Get your screen together. Design skills for frontend people.](#Get-your-screen-together.-Design-skills-for-frontend-people.)**
+  * **[FedUnited Conclusion](#FedUnited-Conclusion)**
+* **[Socket.io](#Socket.io)**
+  * **[What is Socket.io?](#What-is-socket.io)**
+  * **[Why do we use Socket.io?](#why-do-we-use-socket.io?)**
+  * **[How do we use socket](#how-do-we-use-socket.io)**
+    * **[Which sites use socket.io](#which-sites-use-socket.io)**
+* **[NodeJS](#Nodejs)**
+  * **[Azat Mardan: You don't know NodeJS](#Azat-Mardan:-You-don't-know-NodeJS)**
+    * **[Comparison with Java](#comparison-with-java)**
+    * **[Blocking or non-blocking webservers](#blocking-or-non-blocking-webservers)**
+    * **[Events](#events)**
+    * **[Handling large data](#handling-large-data)**
+    * **[Conclusion](#Conclusion)**
+
 ## Frontend United
 School gave us the very nice opportunity to go to the Frontend United conference in the Jaarbeurs in Utrecht.
 
 ### How to design a award winning website?
+<img src="https://github.com/japgroevemaker/weekly-nerd-1819/blob/master/images/AWARD.jpeg" width="100%">
 The first college I attended was the one gave by Peter van Grieken and Luc Princen.
 
 Peter van Grieken is an inclusive design consultant and the founder of design studio [Frozen Rockets](https://frozenrockets.nl/). He helps organisations to reach as many people as possible by helping them design accessible products and services. In a previous life he ran a showbizz website, but you can still ask him about the latest Hollywood gossip.
@@ -13,6 +32,7 @@ Luc Princen is an independent developer and designer from The Netherlands specia
 Last year they had won the prize for [Best Site](https://www.kit.nl/) at the Automatic Design Awards. They talk about the decisions they have made during the making process. They also discus how they have used WordPress’ Gutenberg editor throughout the website while they also had to take care of the usability and accessibility.
 
 At first Luc talked about the CMS system WordPress. He said that WordPress is already 16 years old and actually is pretty ancient nowadays. It will take a developer approximately 15 years to renew WordPress to todays standards he said. He also spoke about the usage of the Gutenberg plugin in their award winning website. Gutenberg is an content editor in WordPress and allows you to easily create an website.
+<img src="https://github.com/japgroevemaker/weekly-nerd-1819/blob/master/images/AWARD2.jpeg" width="100%">
 
 Then Peter took it over. He said that the idea of modular design is that it needs to be re-usable and that it is important to keep accessibility in mind during the process. To test your application you need to throw your mouse out and try to use your app with your keyboard he claimed. "Designing focus states is not hard" and that is why Peter says that there is no excuse not to design for accessibility.
 
@@ -21,15 +41,17 @@ The award winning website they made wasn't one of the most beautifull website i 
 
 
 ### Get your screen together. Design skills for frontend people.
+<img src="https://github.com/japgroevemaker/weekly-nerd-1819/blob/master/images/GYST.jpeg" width="100%">
 The second college i attended was one gave by Silvia Otto Sequeira
 
 Working as UX/UI Practice Lead at [OutSystems](https://www.outsystems.com/), Sílvia leads a global team of designers creating applications for all sorts of companies operating regionally or worldwide. Her mission is to always work as user advocate by designing better products, and help others doing the same. And then writing and talking about it.
 
 In the talk she guides us through the process of delivering applications on a short period of time. She says: sometimes it feels like we are delivering the babies but don't take care of the babies so we need to rely on who comes next. Why should a frontend developer learn about design? Because design is everyone's job.
 
+<img src="https://github.com/japgroevemaker/weekly-nerd-1819/blob/master/images/GYST3.jpeg" width="100%">
 She talks about specific moments that happen throughout the cycle of development.
 
-| Cycle |
+| Cycle | |
 |------|------|
 | Non-Realistic, Non-Perfomant | _ You've got to know what works and what doesn't _ |
 | Winging it moments | _ The features that come after design _ |
@@ -39,9 +61,10 @@ She talks about specific moments that happen throughout the cycle of development
 
 She says that everytime you face something like this, you are forced to make design decisions. But she also claims that understanding and discussing what designers are doing doesn't make you a designer.
 
+<img src="https://github.com/japgroevemaker/weekly-nerd-1819/blob/master/images/GYST4.jpeg" width="100%">
 She walked us through the 10 heuristic rules of how to put a screen together.
 
-|heuristics |
+|heuristics | | |
 |------|------|
 | 1. | Visibility of system status | _Let users know what is going on. If you have more info about a state, privide the user_  |
 | 2. | Match between system and real world | _ Lets use examples from the real world, use our conventions wisely _ |
@@ -62,10 +85,10 @@ A lot of the things in the college where very familiar to me because of the cour
 Socket.io is a JavaScript library for realtime web apps. It provides realtime, bi-directional communication between web clients and servers. It has two parts: a client-side library that runs in the browser, and a server-side library for Node.js. Both components have a nearly identical API.
 
 Communication on the web is usually asynchronous. The client requests and the server responds. Back in the days when the web introduced itself, this was fine. But nowadays we need something faster and immediate. In this picture, for example, the server can't decide for itself to send something to the client. The client has to reload the page to see changes.
-![](HTTP image)
+<img src="https://github.com/japgroevemaker/weekly-nerd-1819/blob/master/images/socket.io1.png" width="80%">
 
 Socket.io that creates some sort of pipe communication that remains open between client and the server. The browser and the server stay connected to each other and can exchange messages, in one direction and the other, through this pipe. The server can decide for itself to send a message to the client.
-![](Socket image)
+<img src="https://github.com/japgroevemaker/weekly-nerd-1819/blob/master/images/socket.io2.png" width="80%">
 
 Socket.io allows us to use websockets very easily. For example, if the browser doesn’t support WebSocket but Flash is installed, socket.io will go through Flash to do the communication in real time. If not, it can use other techniques such as AJAX Long Polling or "Forever Iframe" which is based on an invisible iframe that loads progressively to retrieve updates from the server.
 The good news is that you don’t need to know the details about how these techniques work. However, I think it’s good to at least know their name and that they exist.
@@ -122,11 +145,8 @@ socket.on('connect', function() {
 </script>
 ```
 And here the result! You can see that there is a log in the server console and in the client console.
-![](result socket)
+<img src="https://github.com/japgroevemaker/weekly-nerd-1819/blob/master/images/socket.io3.png" width="80%">
 
-#### For what do we use socket.io
-  - [Chat applications]()
-  - [Gathering realtime data](https://final-assignment-zarjxmiosj.now.sh/login)
 
 #### Which sites use socket.io?
   - [Trello](https://trello.com/nl) _Planning app_
