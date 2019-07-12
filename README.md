@@ -4,7 +4,7 @@
 * **[Frontend United](#fronted-united)**
   * **[How to design an award winning website?](#how-to-design-an-award-winning-website)**
   * **[Get your screen together. Design skills for frontend people.](#get-your-screen-together-design-skills-for-frontend-people)**
-* **[Socket.io](#socket-io)**
+* **[Socket.io](#socket.io)**
   * **[What is Socket.io?](#what-is-socket-io)**
   * **[Why do we use Socket.io?](#why-do-we-use-socket-io?)**
   * **[How do we use socket](#how-do-we-use-socket-io)**
