@@ -1,17 +1,16 @@
 # Weekly Nerd @cmda-minor-web · 2018-2019
 
 ## Table of content
-* **[Frontend United](#Fronted-United)**
-  * **[How to design an award winning website?](#How-to-design-an-award-winning-website?)**
-  * **[Get your screen together. Design skills for frontend people.](#Get-your-screen-together.-Design-skills-for-frontend-people.)**
-  * **[FedUnited Conclusion](#FedUnited-Conclusion)**
-* **[Socket.io](#Socket.io)**
-  * **[What is Socket.io?](#What-is-socket.io)**
+* **[Frontend United](#fronted-united)**
+  * **[How to design an award winning website?](#how-to-design-an-award-winning-website?)**
+  * **[Get your screen together. Design skills for frontend people.](#get-your-screen-together.-design-skills-for-frontend-people.)**
+* **[Socket.io](#socket.io)**
+  * **[What is Socket.io?](#what-is-socket.io)**
   * **[Why do we use Socket.io?](#why-do-we-use-socket.io?)**
   * **[How do we use socket](#how-do-we-use-socket.io)**
     * **[Which sites use socket.io](#which-sites-use-socket.io)**
 * **[NodeJS](#Nodejs)**
-  * **[Azat Mardan: You don't know NodeJS](#Azat-Mardan:-You-don't-know-NodeJS)**
+  * **[Azat Mardan: You don't know NodeJS](#azat-mardan-you-dont-know-NodeJS)**
     * **[Comparison with Java](#comparison-with-java)**
     * **[Blocking or non-blocking webservers](#blocking-or-non-blocking-webservers)**
     * **[Events](#events)**
@@ -64,8 +63,8 @@ She says that everytime you face something like this, you are forced to make des
 <img src="https://github.com/japgroevemaker/weekly-nerd-1819/blob/master/images/GYST4.jpeg" width="100%">
 She walked us through the 10 heuristic rules of how to put a screen together.
 
-|heuristics | | |
-|------|------|
+| heuristics | | |
+|------|------|------|
 | 1. | Visibility of system status | _Let users know what is going on. If you have more info about a state, privide the user_  |
 | 2. | Match between system and real world | _ Lets use examples from the real world, use our conventions wisely _ |
 | 3. | User control and freedom | _ Give users a sense of control, give them opportunities to get out, cancel or undo _ |
@@ -79,6 +78,7 @@ She walked us through the 10 heuristic rules of how to put a screen together.
 
 #### Conclusion
 A lot of the things in the college where very familiar to me because of the courses i followed on university. It was very nice to see how they are implemented in a big process. Although i think she sometimes was a little vague and i didn't really got her point.
+
 
 ## Socket.io
 ## What is socket.io?
