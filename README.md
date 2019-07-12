@@ -2,13 +2,13 @@
 
 ## Table of content
 * **[Frontend United](#fronted-united)**
-  * **[How to design an award winning website?](#how-to-design-an-award-winning-website?)**
-  * **[Get your screen together. Design skills for frontend people.](#get-your-screen-together.-design-skills-for-frontend-people.)**
-* **[Socket.io](#socket.io)**
-  * **[What is Socket.io?](#what-is-socket.io)**
-  * **[Why do we use Socket.io?](#why-do-we-use-socket.io?)**
-  * **[How do we use socket](#how-do-we-use-socket.io)**
-    * **[Which sites use socket.io](#which-sites-use-socket.io)**
+  * **[How to design an award winning website?](#how-to-design-an-award-winning-website)**
+  * **[Get your screen together. Design skills for frontend people.](#get-your-screen-together-design-skills-for-frontend-people)**
+* **[Socket.io](#socket-io)**
+  * **[What is Socket.io?](#what-is-socket-io)**
+  * **[Why do we use Socket.io?](#why-do-we-use-socket-io?)**
+  * **[How do we use socket](#how-do-we-use-socket-io)**
+    * **[Which sites use socket.io](#which-sites-use-socket-io)**
 * **[NodeJS](#Nodejs)**
   * **[Azat Mardan: You don't know NodeJS](#azat-mardan-you-dont-know-NodeJS)**
     * **[Comparison with Java](#comparison-with-java)**
@@ -52,10 +52,10 @@ She talks about specific moments that happen throughout the cycle of development
 
 | Cycle | |
 |------|------|
-| Non-Realistic, Non-Perfomant | _ You've got to know what works and what doesn't _ |
-| Winging it moments | _ The features that come after design _ |
-| Near enough complex | _ Near enough is okay for most stakeholders _ |
-| Backend mindset | _ Does it work? Then it's done _ |
+| Non-Realistic, Non-Perfomant | _You've got to know what works and what doesn't_ |
+| Winging it moments | _The features that come after design_ |
+| Near enough complex | _Near enough is okay for most stakeholders_ |
+| Backend mindset | _Does it work? Then it's done_ |
 
 
 She says that everytime you face something like this, you are forced to make design decisions. But she also claims that understanding and discussing what designers are doing doesn't make you a designer.
@@ -66,15 +66,15 @@ She walked us through the 10 heuristic rules of how to put a screen together.
 | heuristics | | |
 |------|------|------|
 | 1. | Visibility of system status | _Let users know what is going on. If you have more info about a state, privide the user_  |
-| 2. | Match between system and real world | _ Lets use examples from the real world, use our conventions wisely _ |
-| 3. | User control and freedom | _ Give users a sense of control, give them opportunities to get out, cancel or undo _ |
-| 4. | Consistency and standards | _ For example the hamburger menu, a user know that there is something behind _ |
-| 5. | Error prevention | _ User needs to be in control _ |
-| 6. | Recognize rather than recall | _ User doesn' remember things, make something that is understood after the first look _ |
-| 7. | Flexibillity and efficiency of use | _ Give the user what they want, give them faster ways to complete goals _ |
-| 8. | Aesthetic and minimalist design | _ Make it easier for the user _ |
-| 9. | Help users recognize, diagnose and recover from errors | _ Give users the opportunity to redo an action after an error _ |
-| 10. | Help and documentation | _ Give users help when they need it, when they need it _ |
+| 2. | Match between system and real world | _Lets use examples from the real world, use our conventions wisely_ |
+| 3. | User control and freedom | _Give users a sense of control, give them opportunities to get out, cancel or undo_ |
+| 4. | Consistency and standards | _For example the hamburger menu, a user know that there is something behind_ |
+| 5. | Error prevention | _User needs to be in control_ |
+| 6. | Recognize rather than recall | _User doesn' remember things, make something that is understood after the first look_ |
+| 7. | Flexibillity and efficiency of use | _Give the user what they want, give them faster ways to complete goals_ |
+| 8. | Aesthetic and minimalist design | _Make it easier for the user_ |
+| 9. | Help users recognize, diagnose and recover from errors | _Give users the opportunity to redo an action after an error_ |
+| 10. | Help and documentation | _Give users help when they need it, when they need it_ |
 
 #### Conclusion
 A lot of the things in the college where very familiar to me because of the courses i followed on university. It was very nice to see how they are implemented in a big process. Although i think she sometimes was a little vague and i didn't really got her point.
